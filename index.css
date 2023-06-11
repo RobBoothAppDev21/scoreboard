@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url("fonts/digital-7.ttf");
+}
+
+body {
+  margin: 0;
+  background: #1B244A;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  margin: 40px auto;
+  column-gap: 100px;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.team-name {
+  color: #EEEEEE;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.team-scoreboard {
+  background: black;
+  color: #F94F6D;
+  height: 120px;
+  width: 155px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: center;
+  font-size: 90px;
+  border-radius: 5px;
+  font-family: "digital-clock-font";
+  line-height: 120px;
+}
+
+.points-btn {
+  background: none;
+  color: #9AABD8;
+  border: 1px solid #9AABD8;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  vertical-align: center;
+  text-align: center;
+  font-family: "digital-clock-font";
+  cursor: pointer;
+}
+
+.points-containter {
+  display: flex;
+  justify-content: space-between;
+}
